@@ -1,0 +1,65 @@
+.logo{
+    display: block;
+    align-items: center;
+    width: 225px;
+    height: 50px;
+}
+.nav-item{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    width: 450px;
+    height: 25px;
+}
+.container{
+    background-color: rgb(86, 90, 86);
+    margin: auto;
+    max-width: 955px;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.btn{
+    background-color: green;
+    border-radius: 5%;
+}
+.msg{
+    background-color: rgb(203, 207, 199);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.center{
+    display: right;
+    margin: auto;
+    color: blue;
+    clear: both;
+    text-align: center;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 980px;
+    height: 34px;
+}
+#msg_inp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
